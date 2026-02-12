@@ -42,3 +42,5 @@ pkg name must be uniq if u publish
 
 lodash is a utility lib
 gitignore- to store node modules and to be ignored by src ctrl
+so the giant folder of modules wont be pushed to repo
+gitignore: stores all files that can be ignored when pushed
