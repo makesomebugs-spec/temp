@@ -1,0 +1,44 @@
+no dom
+older one was browser.js; it had these dom etc
+GLOBAL VARIABLES
+
+__dirname- path to cd
+__filename
+require- fn to use modules
+module-info about current module
+process- info of env where our pgm runs=> if our user is somewhere else; sm other browser --imp one
+
+we can console.log(<global_var>)
+
+we can exec in one file w mul modules
+
+built-in mods
+os
+path
+fs - file sys
+http
+
+async vs sync
+
+async: when async fn is found, we offload this fn and continue our other tasks; app can serve other users as well
+sync: seq execn
+
+we use async
+
+http:server setup 
+
+npm: global cmd
+npm --vs
+2 ways to install: local: npm i <pkg> //i=install
+global: npm install -g <pkg> //all projects
+sudo " (mac)
+we do local mostly
+
+package.json: stores imp info abt project
+1.manual approsch: file in root, add props
+2.npm init: step by step asking qs
+3. npm init -y: all default
+pkg name must be uniq if u publish
+
+lodash is a utility lib
+gitignore- to store node modules and to be ignored by src ctrl
